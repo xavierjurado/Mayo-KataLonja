@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47FF1D9F1371FA1C00E50B5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FF1D9E1371FA1C00E50B5D /* Foundation.framework */; };
+		47FF1DA21371FA1C00E50B5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FF1DA11371FA1C00E50B5D /* main.m */; };
+		47FF1DB31372013900E50B5D /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FF1DB21372013900E50B5D /* City.m */; };
+		47FF1DB5137205AA00E50B5D /* Data.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 47FF1DAF1371FDF700E50B5D /* Data.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47FF1D981371FA1C00E50B5D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				47FF1DB5137205AA00E50B5D /* Data.plist in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		47FF1D9A1371FA1C00E50B5D /* KataLonja */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KataLonja; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FF1D9E1371FA1C00E50B5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47FF1DA11371FA1C00E50B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47FF1DAF1371FDF700E50B5D /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		47FF1DB11372013900E50B5D /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		47FF1DB21372013900E50B5D /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47FF1D971371FA1C00E50B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FF1D9F1371FA1C00E50B5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47FF1D8F1371FA1C00E50B5D = {
+			isa = PBXGroup;
+			children = (
+				47FF1DA01371FA1C00E50B5D /* KataLonja */,
+				47FF1D9D1371FA1C00E50B5D /* Frameworks */,
+				47FF1D9B1371FA1C00E50B5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47FF1D9B1371FA1C00E50B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47FF1D9A1371FA1C00E50B5D /* KataLonja */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47FF1D9D1371FA1C00E50B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47FF1D9E1371FA1C00E50B5D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47FF1DA01371FA1C00E50B5D /* KataLonja */ = {
+			isa = PBXGroup;
+			children = (
+				47FF1DA11371FA1C00E50B5D /* main.m */,
+				47FF1DAF1371FDF700E50B5D /* Data.plist */,
+				47FF1DB11372013900E50B5D /* City.h */,
+				47FF1DB21372013900E50B5D /* City.m */,
+			);
+			path = KataLonja;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47FF1D991371FA1C00E50B5D /* KataLonja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FF1DA81371FA1C00E50B5D /* Build configuration list for PBXNativeTarget "KataLonja" */;
+			buildPhases = (
+				47FF1D961371FA1C00E50B5D /* Sources */,
+				47FF1D971371FA1C00E50B5D /* Frameworks */,
+				47FF1D981371FA1C00E50B5D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KataLonja;
+			productName = KataLonja;
+			productReference = 47FF1D9A1371FA1C00E50B5D /* KataLonja */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47FF1D911371FA1C00E50B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Ingens Networks";
+			};
+			buildConfigurationList = 47FF1D941371FA1C00E50B5D /* Build configuration list for PBXProject "KataLonja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47FF1D8F1371FA1C00E50B5D;
+			productRefGroup = 47FF1D9B1371FA1C00E50B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47FF1D991371FA1C00E50B5D /* KataLonja */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47FF1D961371FA1C00E50B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FF1DA21371FA1C00E50B5D /* main.m in Sources */,
+				47FF1DB31372013900E50B5D /* City.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47FF1DA61371FA1C00E50B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		47FF1DA71371FA1C00E50B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		47FF1DA91371FA1C00E50B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47FF1DAA1371FA1C00E50B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47FF1D941371FA1C00E50B5D /* Build configuration list for PBXProject "KataLonja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FF1DA61371FA1C00E50B5D /* Debug */,
+				47FF1DA71371FA1C00E50B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47FF1DA81371FA1C00E50B5D /* Build configuration list for PBXNativeTarget "KataLonja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FF1DA91371FA1C00E50B5D /* Debug */,
+				47FF1DAA1371FA1C00E50B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47FF1D911371FA1C00E50B5D /* Project object */;
+}

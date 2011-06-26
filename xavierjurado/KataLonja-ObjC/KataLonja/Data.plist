@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>cityName</key>
+		<string>Barcelona</string>
+		<key>priceVieirasPerKilo</key>
+		<integer>450</integer>
+		<key>pricePulpoPerKilo</key>
+		<integer>120</integer>
+		<key>priceCentolloPerKilo</key>
+		<integer>0</integer>
+		<key>distanceFromOrigin</key>
+		<integer>1100</integer>
+	</dict>
+	<dict>
+		<key>cityName</key>
+		<string>Madrid</string>
+		<key>priceCentolloPerKilo</key>
+		<integer>450</integer>
+		<key>pricePulpoPerKilo</key>
+		<integer>0</integer>
+		<key>priceVieirasPerKilo</key>
+		<integer>500</integer>
+		<key>distanceFromOrigin</key>
+		<integer>800</integer>
+	</dict>
+	<dict>
+		<key>cityName</key>
+		<string>Lisboa</string>
+		<key>priceCentolloPerKilo</key>
+		<integer>500</integer>
+		<key>pricePulpoPerKilo</key>
+		<integer>100</integer>
+		<key>priceVieirasPerKilo</key>
+		<integer>600</integer>
+		<key>distanceFromOrigin</key>
+		<integer>600</integer>
+	</dict>
+</array>
+</plist>
